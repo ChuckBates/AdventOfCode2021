@@ -9,7 +9,7 @@ using AdventOfCode;
 // Console.WriteLine($"Part two: {partTwo}");
 
 var partOne = DayTwo.PartOne(File.ReadAllLines("../../../inputs/dayTwo.txt"));
-// var partTwo = DayTwo.PartTwo(File.ReadAllLines("../../../inputs/dayOne.txt"));
+var partTwo = DayTwo.PartTwo(File.ReadAllLines("../../../inputs/dayTwo.txt"));
 Console.WriteLine("Day two results:");
 Console.WriteLine($"Part one: {partOne}");
-// Console.WriteLine($"Part two: {partTwo}");
+Console.WriteLine($"Part two: {partTwo}");

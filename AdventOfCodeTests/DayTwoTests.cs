@@ -29,5 +29,13 @@ namespace AdventOfCodeTests
             var result = DayTwo.PartOne(measurements);
             Assert.That(result, Is.EqualTo(150));
         }
+        
+        [Test]
+        public void When_evaluating_part_two_multiple_movements()
+        {
+            var measurements = File.ReadAllLines("../../../../AdventOfCode/inputs/test/dayTwo.txt");
+            var result = DayTwo.PartTwo(measurements);
+            Assert.That(result, Is.EqualTo(900));
+        }
     }
 }
