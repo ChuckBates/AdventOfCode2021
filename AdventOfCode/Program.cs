@@ -8,8 +8,14 @@ using AdventOfCode;
 // Console.WriteLine($"Part one: {partOne}");
 // Console.WriteLine($"Part two: {partTwo}");
 
-var partOne = DayTwo.PartOne(File.ReadAllLines("../../../inputs/dayTwo.txt"));
-var partTwo = DayTwo.PartTwo(File.ReadAllLines("../../../inputs/dayTwo.txt"));
-Console.WriteLine("Day two results:");
+// var partOne = DayTwo.PartOne(File.ReadAllLines("../../../inputs/dayTwo.txt"));
+// var partTwo = DayTwo.PartTwo(File.ReadAllLines("../../../inputs/dayTwo.txt"));
+// Console.WriteLine("Day two results:");
+// Console.WriteLine($"Part one: {partOne}");
+// Console.WriteLine($"Part two: {partTwo}");
+
+var partOne = DayThree.PartOne(File.ReadAllLines("../../../inputs/dayThree.txt"));
+// var partTwo = DayTwo.PartTwo(File.ReadAllLines("../../../inputs/dayTwo.txt"));
+Console.WriteLine("Day three results:");
 Console.WriteLine($"Part one: {partOne}");
-Console.WriteLine($"Part two: {partTwo}");
+// Console.WriteLine($"Part two: {partTwo}");
