@@ -14,8 +14,14 @@ using AdventOfCode;
 // Console.WriteLine($"Part one: {partOne}");
 // Console.WriteLine($"Part two: {partTwo}");
 
-var partOne = DayThree.PartOne(File.ReadAllLines("../../../inputs/dayThree.txt"));
-var partTwo = DayThree.PartTwo(File.ReadAllLines("../../../inputs/dayThree.txt"));
-Console.WriteLine("Day three results:");
+// var partOne = DayThree.PartOne(File.ReadAllLines("../../../inputs/dayThree.txt"));
+// var partTwo = DayThree.PartTwo(File.ReadAllLines("../../../inputs/dayThree.txt"));
+// Console.WriteLine("Day three results:");
+// Console.WriteLine($"Part one: {partOne}");
+// Console.WriteLine($"Part two: {partTwo}");
+
+var partOne = DayFour.PartOne(File.ReadAllLines("../../../inputs/dayFour.txt"));
+var partTwo = DayFour.PartTwo(File.ReadAllLines("../../../inputs/dayFour.txt"));
+Console.WriteLine("Day four results:");
 Console.WriteLine($"Part one: {partOne}");
 Console.WriteLine($"Part two: {partTwo}");
