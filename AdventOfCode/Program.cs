@@ -32,8 +32,14 @@ using AdventOfCode;
 // Console.WriteLine($"Part one: {partOne}");
 // Console.WriteLine($"Part two: {partTwo}");
 
-var partOne = DaySix.Evaluate(File.ReadAllLines("../../../inputs/daySix.txt"), 80);
-var partTwo = DaySix.Evaluate(File.ReadAllLines("../../../inputs/daySix.txt"), 256);
-Console.WriteLine("Day six results:");
+// var partOne = DaySix.Evaluate(File.ReadAllLines("../../../inputs/daySix.txt"), 80);
+// var partTwo = DaySix.Evaluate(File.ReadAllLines("../../../inputs/daySix.txt"), 256);
+// Console.WriteLine("Day six results:");
+// Console.WriteLine($"Part one: {partOne}");
+// Console.WriteLine($"Part two: {partTwo}");
+
+var partOne = DaySeven.PartOne(File.ReadAllLines("../../../inputs/daySeven.txt"));
+var partTwo = DaySeven.PartTwo(File.ReadAllLines("../../../inputs/daySeven.txt"));
+Console.WriteLine("Day seven results:");
 Console.WriteLine($"Part one: {partOne}");
 Console.WriteLine($"Part two: {partTwo}");
