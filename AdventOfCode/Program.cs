@@ -2,11 +2,17 @@
 using System.IO;
 using AdventOfCode;
 
-var partOne = DayEight.PartOne(File.ReadAllLines("../../../inputs/dayEight.txt"));
-var partTwo = DayEight.PartTwo(File.ReadAllLines("../../../inputs/dayEight.txt"));
-Console.WriteLine("Day eight results:");
+var partOne = DayNine.PartOne(File.ReadAllLines("../../../inputs/dayNine.txt"));
+var partTwo = DayNine.PartTwo(File.ReadAllLines("../../../inputs/dayNine.txt"));
+Console.WriteLine("Day nine results:");
 Console.WriteLine($"Part one: {partOne}");
 Console.WriteLine($"Part two: {partTwo}");
+
+// var partOne = DayEight.PartOne(File.ReadAllLines("../../../inputs/dayEight.txt"));
+// var partTwo = DayEight.PartTwo(File.ReadAllLines("../../../inputs/dayEight.txt"));
+// Console.WriteLine("Day eight results:");
+// Console.WriteLine($"Part one: {partOne}");
+// Console.WriteLine($"Part two: {partTwo}");
 
 // var partOne = DaySeven.PartOne(File.ReadAllLines("../../../inputs/daySeven.txt"));
 // var partTwo = DaySeven.PartTwo(File.ReadAllLines("../../../inputs/daySeven.txt"));
